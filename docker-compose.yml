@@ -12,8 +12,8 @@ services:
       - MYSQL_USER=chiperuser
       - MYSQL_PASS=chiperpass
       - MYSQL_DB=chiper_db
-      - TOKBOX_API_KEY=46893334
-      - TOKBOX_SECRET=6801f951c42eec8973a7c270201a8eabd0a50ec1
+      - TOKBOX_API_KEY=46893344
+      - TOKBOX_SECRET=2926a4a97c660f3c26c2eb05a22dc0d6403100c0
     volumes:
       - ./www/:/var/www/html/
     ports:
